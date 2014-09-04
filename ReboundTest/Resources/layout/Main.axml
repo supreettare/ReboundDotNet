@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollView1">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/parentlayout">
+        <Button
+            android:text="Reset All"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonReset" />
+        <Button
+            android:id="@+id/MyButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Click Effect" />
+        <Button
+            android:text="Tilt Effect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonTilt" />
+        <Button
+            android:text="Bounce In"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonBounceIn" />
+        <Button
+            android:text="Bounce Out"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonBounceOut" />
+        <Button
+            android:text="Facebook Chat Bubble"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonBounceFadeIn" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextTension"
+            android:hint="tension"
+            android:text="100" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextFriction"
+            android:hint="friction"
+            android:text="12" />
+    </LinearLayout>
+</ScrollView>
